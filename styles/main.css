@@ -1,3 +1,54 @@
-#fishtank {};
- .fish {};
- .fish_name {};
+.fish-tank {
+    display: flex;
+    border: solid red 1px;
+
+}
+
+.fish-species {
+    display: flex;
+    border: solid green 1px;
+
+}
+
+.quotes {
+    display: flex;
+    border: solid blue 1px;
+
+}
+
+.locations {
+    display: flex;
+    border: solid violet 1px;
+
+}
+
+.fish-care {
+    display: flex;
+    border: solid purple 1px;
+
+}
+
+.martin-home {
+    display: flex;
+    border: solid orange 1px;
+
+}
+
+.welcome {
+    display: flex;
+    border: solid yellow 1px;
+
+}
+
+.welcome {
+    display: flex;
+    border: solid aqua 1px;
+
+}
+
+.martin-pic {
+    display: flex;
+    border: solid chartreuse 1px;
+
+}
+
