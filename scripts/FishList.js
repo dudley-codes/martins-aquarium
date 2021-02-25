@@ -8,12 +8,12 @@ const allTheFish = useFish ()
 import { useFish } from "./FishDataProvider.js"
 import { Fish } from "./Fish.js"
 
-Fish()
+
 
 export const FishList = () => {
     const fishes = useFish()
 
-    const DOMLocation = document.querySelector("#fishList")
+    const DOMLocation = document.querySelector(".fishList")
     
     // Generate all of the HTML for all of the fish
 

@@ -1,7 +1,9 @@
 console.log("too close for missiles, switching to guns.");
 
 
+
 import { FishList } from './FishList.js'
+FishList()
 
 
 

@@ -1,4 +1,4 @@
-import { Fish } from "./Fish";
+
 
 const fishCollection = [
 	{
@@ -203,7 +203,7 @@ const fishCollection = [
 		inches: 7,
 		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: bluefin.pg },
+	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: "bluefin.jpg" },
 	{
 		saltwater: true,
 		harvestLocation: "Baltic Sea",
