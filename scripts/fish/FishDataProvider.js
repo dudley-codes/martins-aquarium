@@ -249,3 +249,18 @@ const fishCollection = [
 ];
 
 export const useFish = () => fishCollection;
+
+
+export const getMostHolyFish = () => {
+	const holyFishArray = []
+
+for (const fishObj of fishCollection) {
+	if(fishObj.inches % 3 === 0){
+		holyFishArray.push(fishObj); 
+	};
+	
+};
+
+return holyFishArray;
+
+}
