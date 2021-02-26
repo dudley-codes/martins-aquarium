@@ -5,7 +5,7 @@ import { Tips } from "./Tips.js"
 
 
 
-export const TipsList = () => {
+export const TipList = () => {
     const tips = useTips()
 
     const TipsLocation = document.querySelector(".tipList")
@@ -14,7 +14,7 @@ export const TipsList = () => {
 
     let tipsHTMLRepresentations = "";
 
-    for (const oneTip of fishes) {
+    for (const oneTip of tips) {
         tipsHTMLRepresentations += Tips(oneTip);
     }
 console.log("tipsHTML Rep", tipsHTMLRepresentations);

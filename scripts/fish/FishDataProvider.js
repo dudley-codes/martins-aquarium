@@ -2,7 +2,7 @@
 
 const fishCollection = [
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Pacific Ocean",
 		diet: "algae",
 		name: "Malcolm",
@@ -11,7 +11,7 @@ const fishCollection = [
 		image: "fish1.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Bali",
 		diet: "really small fish",
 		name: "Bob",
@@ -20,7 +20,7 @@ const fishCollection = [
 		image: "fish2.jpeg"
 	},
 	{ 
-		saltWater: true, 
+		saltWater: "yes", 
 		harvestLocation: "Atlantic Ocean", 
 		diet: "squid", 
 		name: "BigBoss", 
@@ -28,7 +28,7 @@ const fishCollection = [
 		inches: 60, 
 		image: "fish9.jpeg" },
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Pacific Ocean",
 		diet: "shellfish",
 		name: "Jerry",
@@ -37,7 +37,7 @@ const fishCollection = [
 		image: "fish3.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Gulf of Mexico",
 		diet: "tiny fish",
 		name: "Predator",
@@ -46,7 +46,7 @@ const fishCollection = [
 		image: "fish4.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Atlantic Ocean",
 		diet: "Herring",
 		name: "Sabre",
@@ -55,7 +55,7 @@ const fishCollection = [
 		image: "fish5.jpeg"
 	},
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "Amazon Basin",
 		diet: "brine shrimp",
 		name: "Myrti",
@@ -64,7 +64,7 @@ const fishCollection = [
 		species: "angel fish"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Atlantic Ocean",
 		diet: "Plankton",
 		name: "Nemo",
@@ -73,7 +73,7 @@ const fishCollection = [
 		image: "fish7.jpeg"
 	},
 	{
-		saltwater: false,
+		saltwater: "no",
 		harvestLocation: "Mississippi River",
 		diet: "Everything",
 		name: "Vacuum",
@@ -82,7 +82,7 @@ const fishCollection = [
 		image: "fish8.jpeg"
 	},
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "Bobbies Fish Emporium",
 		diet: "minnows",
 		name: "Ralph",
@@ -91,7 +91,7 @@ const fishCollection = [
 		image: "fish9.jpeg"
 	},
 	{
-		saltWater: "false",
+		saltWater: "no",
 		harvestLocation: "Cumberland River",
 		diet: "anything",
 		name: "Whiskers",
@@ -100,7 +100,7 @@ const fishCollection = [
 		image: "fish1.jpeg"
 	},
 	{ 
-		saltWater: true, 
+		saltWater: "yes", 
 		harvestLocation: "South Pacific", 
 		diet: "shrimp", 
 		inches: 64, 
@@ -108,7 +108,7 @@ const fishCollection = [
 		name: "Bruno", 
 		image: "fish2.jpeg" },
 
-	{ saltWater: false, 
+	{ saltWater: "no", 
         harvestLocation: "Petsmart", 
         diet: "algae", 
         name: "Dorothy", 
@@ -116,7 +116,7 @@ const fishCollection = [
         inches: 3, 
         image: "fish2.jpeg" },
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "Lake Tahoe",
 		diet: "insects",
 		name: "Trent",
@@ -125,7 +125,7 @@ const fishCollection = [
 		image: "fish2.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Carribean Sea",
 		diet: "shrimp",
 		name: "Stephen",
@@ -134,7 +134,7 @@ const fishCollection = [
 		image: "fish2.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Barbados",
 		diet: "anchoves",
 		name: "Pizza",
@@ -143,7 +143,7 @@ const fishCollection = [
 		image: "fish6.jpeg"
 	},
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "TN River",
 		diet: "Bacon",
 		name: "Finn",
@@ -152,7 +152,7 @@ const fishCollection = [
 		image: "fish9.jpeg",
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		diet: "mollusks",
 		name: "Simba",
 		species: "lionfish",
@@ -161,7 +161,7 @@ const fishCollection = [
 		image: "fish3.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "New Zealand",
 		diet: "Lost Sailors",
 		name: "Tiki",
@@ -170,7 +170,7 @@ const fishCollection = [
 		image: "fish4.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Red Sea",
 		diet: "algae",
 		name: "Bobo",
@@ -179,7 +179,7 @@ const fishCollection = [
 		image: "fish5.jpeg"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Atlantic Sea",
 		name: "flipper",
 		inches: 12,
@@ -188,7 +188,7 @@ const fishCollection = [
 		species: "garibaldi"
 	},
 	{
-		saltWater: true,
+		saltWater: "yes",
 		harvestLocation: "Bikini Bottom",
 		diet: "Big Ole Fish",
 		name: "Pearl",
@@ -197,7 +197,7 @@ const fishCollection = [
 		image: "fish6.jpeg"
 	},
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "Port Innsmouth",
 		diet: "Primeval Shadows",
 		name: "Cthulhu",
@@ -206,7 +206,7 @@ const fishCollection = [
 		image: "fish2.jpeg"
 	},
 	{ 
-		saltWater: false, 
+		saltWater: "no", 
 		harvestLocation: "Amazon River", 
 		diet: "smaller fish", 
 		name: "Bitey", 
@@ -214,7 +214,7 @@ const fishCollection = [
 		inches: 7.5, 
 		image: "fish2.jpeg" },
 	{
-		saltwater: true,
+		saltwater: "yes",
 		harvestLocation: "St.Croix",
 		diet: "squid",
 		name: "Crush",
@@ -223,7 +223,7 @@ const fishCollection = [
 		image: "fish7.jpeg"
 	},
 	{
-		saltWater: false,
+		saltWater: "no",
 		harvestLocation: "Minnesota",
 		diet: "Cherry Tomatoes",
 		name: "Frank",
@@ -231,14 +231,14 @@ const fishCollection = [
 		inches: 7,
 		image: "fish8.jpeg"
 	},
-	{ saltWater: true, 
+	{ saltWater: "yes", 
 		harvestLocation: "Pacific Ocean", 
 		diet: "smaller fish", name: "bluefin tuna", 
 		species: "Thunnus thynnus", 
 		inches: 84, 
 		image: "fish6.jpeg" },
 	{
-		saltwater: true,
+		saltWater: "yes",
 		harvestLocation: "Baltic Sea",
 		diet: "smaller fish",
 		name: "Fil",
