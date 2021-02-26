@@ -2,7 +2,7 @@
 /* @import "tips.css"; */
 
 body {
-	background-color: antiquewhite;
+	background-color: #f7e3d4;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
@@ -11,15 +11,27 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	background-color: aqua
+	background-color: #fba90a;
 }
 
-header h1 {
+.fishTitle {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.fishTitle h1 {
 	line-height: 1em;
-	color: darkblue;
+	color: #9d4502;
 	text-align: left;
 	padding: 0 2em;
-	font-size: 1.5em;
+	font-size: 3em;
+}
+
+.fishTitle h2 {
+	color: #342e09;
 }
 
 nav ul {
@@ -56,13 +68,17 @@ nav a:active {
 .fishList{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;	
+	justify-content: space-evenly;
+	border: black solid 5px;	
 }
 
 .fish-card {
 	background-color: lightcyan;
 	margin: .5em;
-	max-width: 200px;
+	padding: 5px;
+	max-width: 275px;
+	border: red solid 5px;
+	object-fit: contain;
 }
 
 .fish-card ul {
@@ -71,10 +87,16 @@ nav a:active {
 	margin: .2em;
 	font-size: .8em;
 }
-
-.fish-image {
+/* 
+.image--card {
+	width: 100%
+	border: green solid 5px;
+	object-fit: scale-down;
+} */
+.fish__image {
 	width: 100%;
 	height: auto;
+	object-fit: cover;
 }
 
 .section-main {
@@ -85,4 +107,15 @@ footer {
 	background-color: darkcyan;
 	color: whitesmoke;
 	text-align: center;
+}
+
+.logo {
+	width: 300px;
+	height: auto;
+	object-fit: scale-down;
+}
+
+.logo img {
+	width: 300px;
+	height: auto;
 }
