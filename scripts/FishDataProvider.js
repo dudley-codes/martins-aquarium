@@ -19,7 +19,13 @@ const fishCollection = [
 		inches: 3,
 		image: "images/fish2.jpeg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic Ocean", diet: "squid", name: "BigBoss", species: "Amber Jack", inches: 60, image: "images/fish9.jpeg" },
+	{ saltWater: true, 
+        harvestLocation: "Atlantic Ocean", 
+        diet: "squid", 
+        name: "BigBoss", 
+        species: "Amber Jack", 
+        inches: 60, 
+        image: "images/fish9.jpeg" },
 	{
 		saltWater: true,
 		harvestLocation: "Pacific Ocean",
@@ -92,7 +98,13 @@ const fishCollection = [
 		inches: 39,
 		image: "images/fish1.jpeg"
 	},
-	{ saltWater: true, harvestLocation: "South Pacific", diet: "shrimp", inches: 64, species: "Tuna", name: "Bruno", image: "images/fish2.jpeg" },
+	{ saltWater: true, 
+        harvestLocation: "South Pacific", 
+        diet: "shrimp", 
+        inches: 64, 
+        species: "Tuna", 
+        name: "Bruno", 
+        image: "images/fish2.jpeg" },
 
 	{ saltWater: false, 
         harvestLocation: "Petsmart", 
@@ -191,7 +203,14 @@ const fishCollection = [
 		inches: 999,
 		image: "images/fish2.jpeg"
 	},
-	{ saltWater: false, harvestLocation: "Amazon River", diet: "smaller fish", name: "Bitey", species: "Pirhana", inches: 7.5, image: "images/fish2.jpeg" },
+	{ 
+        saltWater: false, 
+        harvestLocation: "Amazon River", 
+        diet: "smaller fish", 
+        name: "Bitey", 
+        species: "Pirhana", 
+        inches: 7.5, 
+        image: "images/fish2.jpeg" },
 	{
 		saltwater: true,
 		harvestLocation: "St.Croix",
@@ -210,7 +229,14 @@ const fishCollection = [
 		inches: 7,
 		image: "images/fish8.jpeg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: "images/fish6.jpeg" },
+	{ 
+        saltWater: true, 
+        harvestLocation: "Atlantic, Pacific, and southern sea", 
+        diet: "smaller fish", 
+        name: "bluefin tuna", 
+        species: "Thunnus thynnus", 
+        inches: 84, 
+        image: "images/fish6.jpeg" },
 	{
 		saltwater: true,
 		harvestLocation: "Baltic Sea",
