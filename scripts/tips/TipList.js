@@ -1,23 +1,21 @@
-const allTips = getTips ()
+import { getTips } from "./TipDataProvider.js";
+import { Tips } from "./Tips.js";
 
-import { getTips } from "./TipDataProvider.js"
-import { Tips } from "./Tips.js"
-
-
+// const allTips = getTips(); <--- Alternate method
 
 export const TipList = () => {
     const tips = getTips()
 
     const TipsLocation = document.querySelector(".tipList")
     
-    // Generate all of the HTML for all of the fish
+    // Generate all of the HTML for all of the tips
 
-    let tipsHTMLRepresentations = "";
+    let tipsHTMLReps = "";
 
     for (const oneTip of tips) {
-        tipsHTMLRepresentations += Tips(oneTip);
+        tipsHTMLReps += Tips(oneTip);
     }
-console.log("tipsHTML Rep", tipsHTMLRepresentations);
+// console.log("tipsHTML Rep", tipsHTMLReps);
     
-TipsLocation.innerHTML = tipsHTMLRepresentations;
+TipsLocation.innerHTML = tipsHTMLReps;
 }

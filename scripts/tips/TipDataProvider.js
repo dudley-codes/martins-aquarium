@@ -33,4 +33,4 @@ const tipCollection = [
 
 ];
 
-export const getTips = () => tipCollection;
+export const getTips = () => tipCollection.slice();
