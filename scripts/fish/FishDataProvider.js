@@ -73,7 +73,7 @@ const fishCollection = [
 		image: "fish7.jpeg"
 	},
 	{
-		saltwater: "no",
+		saltWater: "no",
 		harvestLocation: "Mississippi River",
 		diet: "Everything",
 		name: "Vacuum",
@@ -254,13 +254,39 @@ export const useFish = () => fishCollection;
 export const getMostHolyFish = () => {
 	const holyFishArray = []
 
-for (const fishObj of fishCollection) {
-	if(fishObj.inches % 3 === 0){
-		holyFishArray.push(fishObj); 
+	for (const fishObj of fishCollection) {
+		if(fishObj.inches % 3 === 0){
+			holyFishArray.push(fishObj); 
+
+		};
 	};
-	
+	return holyFishArray;
+
 };
 
-return holyFishArray;
+export const getSoldierFish = () => {
+	const soldierFishARray = []
 
-}
+	for (const fishObj of fishCollection) {
+		if(fishObj.inches % 5 === 0 && fishObj.inches % 3 !== 0){
+			soldierFishARray.push(fishObj);
+
+			};
+		};
+	return soldierFishARray;
+
+};
+
+export const getUnworthyFish = () => {
+	const unworthyFishArray = []
+
+	for (const fishObj of fishCollection) {
+		if(fishObj.inches % 5 !== 0 && fishObj.inches % 3 !== 0){
+			unworthyFishArray.push(fishObj);
+		};
+	};
+	return unworthyFishArray;
+
+};
+
+console.log("Fish collection size", fishCollection.length)

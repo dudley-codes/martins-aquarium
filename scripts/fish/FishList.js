@@ -1,16 +1,18 @@
 /**
  *  FishList which renders individual fish objects as HTML
  */
-
-const allTheFish = useFish ()
-
-import { useFish, getMostHolyFish} from "./FishDataProvider.js"
+import { getMostHolyFish, getUnworthyFish, getSoldierFish} from "./FishDataProvider.js"
 import { Fish } from "./Fish.js"
 
+const unworthyFish = getUnworthyFish();
+const holyFish = getMostHolyFish();
+const soldierFish = getSoldierFish();
+
+const concatFish = holyFish.concat(soldierFish, unworthyFish);
 
 
 export const FishList = () => {
-    const fishes = getMostHolyFish()
+    const fishes = concatFish;
 
     const DOMLocation = document.querySelector(".fishList")
     
