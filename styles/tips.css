@@ -1,12 +1,17 @@
 .tipBox{
 	display: flex;
 	flex-wrap: wrap;
-	border: black solid 5px;
-	flex: 1;	
-    justify-content: flex-start;
+	/* border: black solid 5px; */
+    justify-content: center;
     align-content: flex-start;
     padding: 0 10px;
-    background: green;
+    background: #31708e;
+    margin-top: 0;
+    color: #f7f9fb;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.1em;
+    border-radius: 25px;
+    /* flex: 25%; */
 }
 
 .tip-card {
@@ -17,8 +22,11 @@
 .tip__name {
     font-weight: bold;
     font-size: 1.5em;
+
 }
 
 .fishTank h1 {
     font-size: 3em;
+    font-family: 'Fascinate', cursive;
+
 }
