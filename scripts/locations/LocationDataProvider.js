@@ -38,6 +38,18 @@ const locationCollection = [
     },
     {
         harvestLocation: "the Red Sea"
+    },
+    {
+        harvestLocation: "Amazon Basin"
+    },
+    {
+        harvestLocation: "Lake Tahoe"
+    },
+    {
+        harvestLocation: "New Zealand"
+    },
+    {
+        harvestLocation: "PetSmart"
     }
 
     ];

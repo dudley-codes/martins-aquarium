@@ -1,15 +1,15 @@
-.locationsBox {
+.quotesBox {
     display: flex;
     justify-content: space-around;
     background: #31708e;
     margin-top: 20px;
     color: #f7f9fb;
     font-family: 'Poiret One', cursive;
-    border-radius: 25px 25px 0 0;
+    border-radius: 25px;
     columns: 3;
 }
 
-.table h1 {
+.quotesBox h1 {
     display: flex;
     justify-content: center;
     font-family: 'Fascinate', cursive;
@@ -17,14 +17,9 @@
     line-height: 0;
 }
 
-ul#horizontal-list {
-    columns: 5;
-    padding-top: 20px;
-    font-size: 20px;
-
-}
-
-ul#horizontal-list li {
+.quotesBox ul {
+    /* display: table; */
     list-style-type: none;
+    columns: 3;
+    font-size: 20px;
 }
-
