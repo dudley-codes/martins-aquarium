@@ -33,4 +33,4 @@ const tipCollection = [
 
 ];
 
-export const useTips = () => tipCollection;
+export const getTips = () => tipCollection;

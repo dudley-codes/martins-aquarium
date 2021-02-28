@@ -1,0 +1,25 @@
+.quotesBox {
+    display: flex;
+    justify-content: space-around;
+    background: #31708e;
+    margin-top: 20px;
+    color: #f7f9fb;
+    font-family: 'Poiret One', cursive;
+    border-radius: 25px;
+    columns: 3;
+}
+
+.quotesBox h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fascinate', cursive;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.quotesBox ul {
+    /* display: table; */
+    list-style-type: none;
+    columns: 3;
+    font-size: 20px;
+}

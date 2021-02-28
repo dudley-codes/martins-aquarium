@@ -6,6 +6,9 @@ FishList()
 import { TipList } from './tips/TipList.js'
 TipList()
 
+import { LocationsList } from './locations/LocationList.js'
+LocationsList()
+
 
 
 // import { useFish } from './FishDataProvider.js'

@@ -1,0 +1,30 @@
+.locationsBox {
+    display: flex;
+    justify-content: space-around;
+    background: #31708e;
+    margin-top: 20px;
+    color: #f7f9fb;
+    font-family: 'Poiret One', cursive;
+    border-radius: 25px 25px 0 0;
+    columns: 3;
+}
+
+.table h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fascinate', cursive;
+    font-size: 50px;
+    line-height: 0;
+}
+
+ul#horizontal-list {
+    columns: 5;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+ul#horizontal-list li {
+    list-style-type: none;
+}
+
