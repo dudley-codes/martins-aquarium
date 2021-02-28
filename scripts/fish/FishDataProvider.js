@@ -248,7 +248,7 @@ const fishCollection = [
 	}
 ];
 
-export const useFish = () => fishCollection;
+export const useFish = () => fishCollection.slice();
 
 
 export const getMostHolyFish = () => {
@@ -289,4 +289,4 @@ export const getUnworthyFish = () => {
 
 };
 
-console.log("Fish collection size", fishCollection.length)
+// console.log("Fish collection size", fishCollection.length)

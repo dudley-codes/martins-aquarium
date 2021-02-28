@@ -54,4 +54,4 @@ const locationCollection = [
 
     ];
 
-export const getLocations = () => locationCollection;
+export const getLocations = () => locationCollection.slice();
