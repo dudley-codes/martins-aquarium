@@ -1,12 +1,12 @@
-const allTips = useTips ()
+const allTips = getTips ()
 
-import { useTips } from "./TipDataProvider.js"
+import { getTips } from "./TipDataProvider.js"
 import { Tips } from "./Tips.js"
 
 
 
 export const TipList = () => {
-    const tips = useTips()
+    const tips = getTips()
 
     const TipsLocation = document.querySelector(".tipList")
     

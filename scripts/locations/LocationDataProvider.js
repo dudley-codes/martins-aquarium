@@ -1,3 +1,4 @@
+
 const locationCollection = [
     {
         harvestLocation: "Barbados"
@@ -25,8 +26,20 @@ const locationCollection = [
 
     {
         harvestLocation: "Cumberland River"
+    }, 
+    {
+        harvestLocation: "Minnesota"
+    },
+    {
+        harvestLocation: "South Pacific"
+    },
+    {
+        harvestLocation: "Bobbies Fish Emporium"
+    },
+    {
+        harvestLocation: "the Red Sea"
     }
 
     ];
 
-export const useLocations = () => locationCollection;
+export const getLocations = () => locationCollection;

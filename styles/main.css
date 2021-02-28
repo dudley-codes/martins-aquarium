@@ -1,5 +1,6 @@
 @import "tips.css";
 @import "fish.css";
+@import "locations.css";
 
 body {
 	background-color: #f7f9fb;
@@ -13,8 +14,7 @@ header {
 	align-items: center;
 	background-color: #31708e;
 	margin-bottom: 20px;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-radius: 0 0 25px 25px;
 	/* border-bottom: solid 20px #8fc1e3 ; */
 }
 
